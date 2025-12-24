@@ -75,13 +75,14 @@ const OurExpertTeam = () => {
       name: "Prajwal Nakhate",
       role: "Senior Manager",
       description: "As a Senior Manager at Techxica Technology, I lead and coordinate the efforts of our IT and AI teams, focusing on operational excellence, team performance, and the successful delivery of technology-driven solutions. My role also involves close collaboration with the Human Resources and Social Media departments, where I support digital engagement, talent outreach, branding, and internal communications. With a strong emphasis on execution, cross-functional alignment, and continuous improvement, I strive to contribute to a cohesive, innovative, and agile organizational environment."
-    },
-    {
-      img: Robo_train,
-      name: "Ajay Gawande",
-      role: "Training Team Lead",
-      description: "Our Training Team Lead plays a pivotal role in driving both learning and digital growth at Techxica Technology. In addition to leading training initiatives, they oversee digital marketing and social media strategies across all platforms. Their responsibilities include managing social media accounts, creating engaging content, handling brand promotion, posting job openings, and ensuring consistent and impactful online presence. With a strong focus on communication, branding, and team development, they help shape the company's digital voice and internal growth."
     }
+    
+    // {
+    //   img: Robo_train,
+    //   name: "Ajay Gawande",
+    //   role: "Training Team Lead",
+    //   description: "Our Training Team Lead plays a pivotal role in driving both learning and digital growth at Techxica Technology. In addition to leading training initiatives, they oversee digital marketing and social media strategies across all platforms. Their responsibilities include managing social media accounts, creating engaging content, handling brand promotion, posting job openings, and ensuring consistent and impactful online presence. With a strong focus on communication, branding, and team development, they help shape the company's digital voice and internal growth."
+    // }
   ];
 
   return (
