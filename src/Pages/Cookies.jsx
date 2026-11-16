@@ -14,7 +14,7 @@ const Cookies = () => {
         <section className="cookies-section">
           <h2 className="cookies-section-title">1. Introduction</h2>
           <div className="cookies-section-content">
-            <p>This Cookies Policy explains how Techxica uses cookies and similar technologies when you visit our website. By using our services, you agree to the use of cookies as outlined below.</p>
+            <p>This Cookies Policy explains how Texora uses cookies and similar technologies when you visit our website. By using our services, you agree to the use of cookies as outlined below.</p>
           </div>
         </section>
 
@@ -81,8 +81,8 @@ const Cookies = () => {
           <div className="cookies-section-content">
             <p>If you have any questions or concerns about our use of cookies, please contact us at:</p>
             <p>
-              Email: <strong>privacy@techxica.com</strong><br />
-              Website: <strong>www.techxica.com</strong>
+              Email: <strong>privacy@Texora.com</strong><br />
+              Website: <strong>www.Texora.com</strong>
             </p>
           </div>
         </section>

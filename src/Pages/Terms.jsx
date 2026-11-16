@@ -14,7 +14,7 @@ const Terms = () => {
         <section className="terms-section">
           <h2 className="terms-section-title">1. Acceptance of Terms</h2>
           <div className="terms-section-content">
-            <p>By accessing or using the Techxica website, services, or related platforms, you agree to comply with and be bound by these Terms of Service. If you do not agree with any part of these terms, you must not use our services.</p>
+            <p>By accessing or using the Texora website, services, or related platforms, you agree to comply with and be bound by these Terms of Service. If you do not agree with any part of these terms, you must not use our services.</p>
           </div>
         </section>
 
@@ -28,7 +28,7 @@ const Terms = () => {
         <section className="terms-section">
           <h2 className="terms-section-title">3. Intellectual Property</h2>
           <div className="terms-section-content">
-            <p>All content on this website — including but not limited to text, graphics, code, logos, and visuals — is the property of Techxica and protected by intellectual property laws. You may not reproduce, distribute, or reuse any materials without written consent.</p>
+            <p>All content on this website — including but not limited to text, graphics, code, logos, and visuals — is the property of Texora and protected by intellectual property laws. You may not reproduce, distribute, or reuse any materials without written consent.</p>
           </div>
         </section>
 
@@ -42,7 +42,7 @@ const Terms = () => {
         <section className="terms-section">
           <h2 className="terms-section-title">5. Third-Party Links</h2>
           <div className="terms-section-content">
-            <p>Our services may contain links to third-party websites. Techxica does not control or endorse these sites and is not responsible for their content or practices. Use them at your own risk.</p>
+            <p>Our services may contain links to third-party websites. Texora does not control or endorse these sites and is not responsible for their content or practices. Use them at your own risk.</p>
           </div>
         </section>
 
@@ -56,14 +56,14 @@ const Terms = () => {
         <section className="terms-section">
           <h2 className="terms-section-title">7. Limitation of Liability</h2>
           <div className="terms-section-content">
-            <p>To the fullest extent permitted by law, Techxica shall not be liable for any indirect, incidental, or consequential damages arising from your use of or inability to use our services.</p>
+            <p>To the fullest extent permitted by law, Texora shall not be liable for any indirect, incidental, or consequential damages arising from your use of or inability to use our services.</p>
           </div>
         </section>
 
         <section className="terms-section">
           <h2 className="terms-section-title">8. Indemnification</h2>
           <div className="terms-section-content">
-            <p>You agree to indemnify and hold harmless Techxica and its affiliates from any claims, damages, losses, liabilities, or expenses resulting from your violation of these terms or misuse of the platform.</p>
+            <p>You agree to indemnify and hold harmless Texora and its affiliates from any claims, damages, losses, liabilities, or expenses resulting from your violation of these terms or misuse of the platform.</p>
           </div>
         </section>
 
@@ -86,8 +86,8 @@ const Terms = () => {
           <div className="terms-section-content">
             <p>If you have questions about these Terms, please contact us at:</p>
             <p>
-              Email: <strong>legal@techxica.com</strong><br />
-              Website: <strong>www.techxica.com</strong>
+              Email: <strong>legal@Texora.com</strong><br />
+              Website: <strong>www.Texora.com</strong>
             </p>
           </div>
         </section>

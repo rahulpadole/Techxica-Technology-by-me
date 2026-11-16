@@ -12,13 +12,13 @@ const Privacy = () => {
         <h1 className="privacy-cyber-title">Privacy Policy</h1>
 
         <p className="privacy-section-content">
-          At Techxica, we are committed to respecting your privacy and protecting the personal information you share with us. This Privacy Policy outlines how we collect, use, store, and safeguard your data when you interact with our IT and Robotics services.
+          At Texora, we are committed to respecting your privacy and protecting the personal information you share with us. This Privacy Policy outlines how we collect, use, store, and safeguard your data when you interact with our IT and Robotics services.
         </p>
 
         <section className="privacy-section">
           <h2 className="privacy-section-title">1. Introduction</h2>
           <div className="privacy-section-content">
-            <p>This Privacy Policy applies to all products, services, and websites offered by Techxica. It outlines our data practices and your rights regarding your personal data.</p>
+            <p>This Privacy Policy applies to all products, services, and websites offered by Texora. It outlines our data practices and your rights regarding your personal data.</p>
           </div>
         </section>
 
@@ -117,7 +117,7 @@ const Privacy = () => {
               <li>Withdraw consent where processing is based on consent</li>
               <li>Object to or restrict processing in certain cases</li>
             </ul>
-            <p>To exercise your rights, email us at <strong>privacy@techxica.com</strong>.</p>
+            <p>To exercise your rights, email us at <strong>privacy@Texora.com</strong>.</p>
           </div>
         </section>
 
@@ -146,7 +146,7 @@ const Privacy = () => {
           <h2 className="privacy-section-title">13. Contact Us</h2>
           <div className="privacy-section-content">
             <p>If you have questions or concerns about our Privacy Policy or practices, please contact us:</p>
-            <p>Email: <strong>privacy@techxica.com</strong><br />Website: <strong>www.techxica.com</strong></p>
+            <p>Email: <strong>privacy@Texora.com</strong><br />Website: <strong>www.Texora.com</strong></p>
           </div>
         </section>
 

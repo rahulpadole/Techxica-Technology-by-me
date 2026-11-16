@@ -45,9 +45,9 @@ const Contact = () => {
 
   const handleEmailClick = (e) => {
     e.preventDefault();
-    const subject = encodeURIComponent('Inquiry about Techxica Services');
+    const subject = encodeURIComponent('Inquiry about Texora Services');
     const body = encodeURIComponent(
-      'Hello Techxica Team,\n\n' +
+      'Hello Texora Team,\n\n' +
       "I'm interested in your services and would like more information about:\n\n" +
       '[Please specify your inquiry here]\n\n' +
       'Best regards,\n' +
@@ -55,12 +55,12 @@ const Contact = () => {
     );
 
     // Primary method - works on most devices
-    window.location.href = `mailto:techxicatechnology@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:Texoratechnology@gmail.com?subject=${subject}&body=${body}`;
 
     // Fallback method after short delay
     setTimeout(() => {
       window.open(
-        `https://mail.google.com/mail/?view=cm&fs=1&to=techxicatechnology@gmail.com&su=${subject}&body=${body}`,
+        `https://mail.google.com/mail/?view=cm&fs=1&to=Texoratechnology@gmail.com&su=${subject}&body=${body}`,
         '_blank'
       );
     }, 300);
@@ -81,7 +81,7 @@ const Contact = () => {
           <li>
             <a href="#" className="contact-link" onClick={handleEmailClick}>
               <img src={mail_icon} alt="Email icon" className="contact-icon" />
-              <span>techxicatechnology@gmail.com</span>
+              <span>Texoratechnology@gmail.com</span>
             </a>
           </li>
           <li>
@@ -105,7 +105,7 @@ const Contact = () => {
         <h3>FOLLOW US ON SOCIAL MEDIA</h3>
         <div className="social-links">
           <a
-            href="https://www.instagram.com/techxicatechnology?igsh=dnh3eDltenU0YWE0"
+            href="https://www.instagram.com/Texoratechnology?igsh=dnh3eDltenU0YWE0"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-link"
@@ -113,7 +113,7 @@ const Contact = () => {
             <FaInstagram className="contact-icon" /> <span>INSTAGRAM</span>
           </a>
           <a
-            href="https://x.com/techxica"
+            href="https://x.com/Texora"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-link"
@@ -121,7 +121,7 @@ const Contact = () => {
             <FaXTwitter className="contact-icon" /> <span>X</span>
           </a>
           <a
-            href="https://www.linkedin.com/company/techxicatechnology/"
+            href="https://www.linkedin.com/company/Texoratechnology/"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-link"

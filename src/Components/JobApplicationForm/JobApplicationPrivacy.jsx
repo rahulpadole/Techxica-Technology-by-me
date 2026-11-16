@@ -68,9 +68,9 @@ const JobApplicationPrivacy = () => {
           <h3>Contact Our Recruitment Team</h3>
           <p>For questions about your application data:</p>
           <address>
-            Techxica Technology HR Department<br />
+            Texora Technology HR Department<br />
             Chh. Sambhajinagar, 431007<br />
-            Email: info@techxicatechnology.com<br />
+            Email: info@Texoratechnology.com<br />
             Phone: +91 8149713034
           </address>
         </div>

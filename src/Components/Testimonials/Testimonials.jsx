@@ -37,7 +37,7 @@ const slideBackward = ()=>{
                         <img src={user_1} alt="" />
                         <div>
                             <h3>Emily Williams</h3>
-                            <span>Techxica Technology</span>
+                            <span>Texora Technology</span>
                         </div>
                     </div>
                     <p>STEM provides the knowledge and skills necessary to understand and solve real-world problems creatively and efficiently.</p>
@@ -49,7 +49,7 @@ const slideBackward = ()=>{
                         <img src={user_2} alt="" />
                         <div>
                             <h3>William Jackson</h3>
-                            <span>Techxica Technology</span>
+                            <span>Texora Technology</span>
                         </div>
                     </div>
                     <p>The practical, project-based approach in STEM fosters critical thinking and allows students to apply theoretical concepts in meaningful ways.</p>
@@ -61,7 +61,7 @@ const slideBackward = ()=>{
                         <img src={user_3} alt="" />
                         <div>
                             <h3>Emily Williams</h3>
-                            <span>Techxica Technology</span>
+                            <span>Texora Technology</span>
                         </div>
                     </div>
                     <p> STEM education opens doors to a wide range of lucrative and impactful careers, equipping students for industries of the future.</p>
@@ -73,7 +73,7 @@ const slideBackward = ()=>{
                         <img src={user_4} alt="" />
                         <div>
                             <h3>William Jackson</h3>
-                            <span>Techxica Technology</span>
+                            <span>Texora Technology</span>
                         </div>
                     </div>
                     <p> STEM empowers students to contribute to technological advancements and address global challenges like climate change, healthcare, and sustainability.</p>

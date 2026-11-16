@@ -8,9 +8,9 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-# ⚡ Techxica
+# ⚡ Texora
 
-**Techxica** is a futuristic, neon-themed web application built using React and Vite. It includes a modern UI, a contact form with document upload, and email delivery using EmailJS — all without a backend. This project uses component-based architecture and scoped styling for maintainability and performance.
+**Texora** is a futuristic, neon-themed web application built using React and Vite. It includes a modern UI, a contact form with document upload, and email delivery using EmailJS — all without a backend. This project uses component-based architecture and scoped styling for maintainability and performance.
 
 ---
 

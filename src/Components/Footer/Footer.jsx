@@ -12,9 +12,9 @@ import {
   FaCheck,
 } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
-import './TechxicaFooter.css';
+import './TexoraFooter.css';
 
-const TechxicaFooter = () => {
+const TexoraFooter = () => {
   const currentYear = new Date().getFullYear();
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
@@ -22,9 +22,9 @@ const TechxicaFooter = () => {
 
   const handleEmailClick = (e) => {
     e.preventDefault();
-    const subject = encodeURIComponent("Techxica Inquiry");
+    const subject = encodeURIComponent("Texora Inquiry");
     const body = encodeURIComponent(
-      "Hello Techxica Team,\n\n" +
+      "Hello Texora Team,\n\n" +
       "I'm interested in your services and would like more information about:\n\n" +
       "[Please specify your inquiry]\n\n" +
       "Best regards,\n" +
@@ -32,25 +32,25 @@ const TechxicaFooter = () => {
     );
 
     // Try opening default mail client
-    window.location.href = `mailto:techxicatechnology@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:texoratechnology@gmail.com?subject=${subject}&body=${body}`;
 
     // Fallback to Gmail after short delay
     setTimeout(() => {
       window.open(
-        `https://mail.google.com/mail/?view=cm&fs=1&to=techxicatechnology@gmail.com&su=${subject}&body=${body}`,
+        `https://mail.google.com/mail/?view=cm&fs=1&to=texoratechnology@gmail.com&su=${subject}&body=${body}`,
         '_blank'
       );
     }, 300);
   };
 
-  const TechxicaSocialLinks = [
-    { icon: <FaInstagram />, url: 'https://www.instagram.com/techxicatechnology?igsh=dnh3eDltenU0YWE0', label: 'Instagram' },
-    { icon: <FaXTwitter />, url: 'https://x.com/techxica', label: 'X (Twitter)' },
-    { icon: <FaLinkedinIn />, url: 'https://www.linkedin.com/company/techxicatechnology/', label: 'LinkedIn' },
+  const TexoraSocialLinks = [
+    { icon: <FaInstagram />, url: 'https://www.instagram.com/texoratechnology?igsh=dnh3eDltenU0YWE0', label: 'Instagram' },
+    { icon: <FaXTwitter />, url: 'https://x.com/texora', label: 'X (Twitter)' },
+    { icon: <FaLinkedinIn />, url: 'https://www.linkedin.com/company/texoratechnology/', label: 'LinkedIn' },
     { icon: <FaYoutube />, url: '/', label: 'YouTube' },
   ];
 
-  const TechxicaContactItems = [
+  const TexoraContactItems = [
     {
       icon: <FaMapMarkerAlt className="cyber-footer__contact-icon" />,
       text: 'Chh Sambhajinagar, Pin 431007, IND',
@@ -65,7 +65,7 @@ const TechxicaFooter = () => {
     },
     {
       icon: <FaEnvelope className="cyber-footer__contact-icon" />,
-      text: 'techxicatechnology@gmail.com',
+      text: 'texoratechnology@gmail.com',
       type: 'mail',
       onClick: handleEmailClick
     },
@@ -101,11 +101,11 @@ const TechxicaFooter = () => {
             {/* Brand Section */}
             <div className="cyber-footer__brand">
               <h3 className="cyber-footer__logo">
-                <span className="cyber-footer__logo-text">TECHXICA</span>
+                <span className="cyber-footer__logo-text">TEXORA</span>
                 <span className="cyber-footer__logo-underline"></span>
               </h3>
               <div className="cyber-footer__social">
-                {TechxicaSocialLinks.map((link, index) => (
+                {TexoraSocialLinks.map((link, index) => (
                   <a
                     key={index}
                     href={link.url}
@@ -122,7 +122,7 @@ const TechxicaFooter = () => {
 
             {/* Contact Section */}
             <div className="cyber-footer__contacts">
-              {TechxicaContactItems.map((item, index) => (
+              {TexoraContactItems.map((item, index) => (
                 <div className="cyber-footer__contact-item" key={index}>
                   {item.type === 'link' ? (
                     <a 
@@ -184,7 +184,7 @@ const TechxicaFooter = () => {
           {/* Legal Section */}
           <div className="cyber-footer__legal">
             <p className="cyber-footer__copyright">
-              © {currentYear} TECHXICA TECHNOLOGY PVT. LTD. ALL RIGHTS RESERVED. |{' '}
+              © {currentYear} Texora Technology PVT. LTD. ALL RIGHTS RESERVED. |{' '}
               <Link to="/privacy" className="cyber-footer__legal-link">Privacy Policy</Link>
               {' '}|{' '}
               <Link to="/terms" className="cyber-footer__legal-link">
@@ -202,4 +202,4 @@ const TechxicaFooter = () => {
   );
 };
 
-export default TechxicaFooter;
+export default TexoraFooter;

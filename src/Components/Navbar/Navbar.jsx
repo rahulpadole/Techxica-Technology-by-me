@@ -60,7 +60,7 @@ const Navbar = () => {
         >
           <img
             src={logo}
-            alt="Techxica Logo"
+            alt="Texora Logo"
             className="cyber-nav-logo"
             loading="eager"
             decoding="async"
